@@ -1,32 +1,33 @@
-# Online-Bookstore-SQL-Project
-SQL Project Using PostgreSQL With joins , queries and data analysis 
-
-
 # 📚 Online Bookstore Database (PostgreSQL)
 
 ## 📌 Project Overview
-Relational database designed using PostgreSQL to manage an Online Bookstore system.  
-Includes schema design, data import/export using pgAdmin, and analytical SQL queries.
+This project is a relational database built using PostgreSQL to manage an Online Bookstore system.  
+It includes database schema design, data import using pgAdmin, and analytical SQL queries for business insights.
 
-## 🛠 Technologies
+## 🛠 Technologies Used
 - PostgreSQL
 - SQL
-- pgAdmin (Import/Export)
+- pgAdmin
 
-## 🗂 Tables
+## 🗂 Database Tables
 - Books
 - Customers
 - Orders
 
-## 📥 Data Handling
-Data was imported and exported directly using pgAdmin Import/Export feature.
-
-## 🔍 Key SQL Features
-- SELECT & WHERE
+## 🔍 Key Features
+- Table creation with Primary & Foreign Keys
+- Data Import/Export using pgAdmin
+- Aggregate Functions (SUM, COUNT, AVG)
 - GROUP BY & HAVING
-- SUM, COUNT, AVG
-- INNER JOIN
-- Revenue & Sales Analysis
+- INNER JOIN queries
+- Revenue and Sales Analysis
+
+## 📊 Analysis Performed
+- Most ordered book
+- Top spending customer
+- Total revenue calculation
+- Genre-wise sales analysis
+- Remaining stock calculation
 
 ## 👩‍💻 Author
 Sayali Kamble
